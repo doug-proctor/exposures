@@ -39,8 +39,14 @@
                         <label for="aperture">Aperture f/{{ stops.aperture[input.aperture] }}</label>
                         <input v-model="input.aperture" type="range"  class="custom-range" id="aperture" name="aperture" min="0" :max="stops.aperture.length - 1">
                     </div>
-                    <span>← Shallower depth of field</span>
-                    <span class="float-right">Deeper depth of field →</span>
+                    <span>
+                        ← More light let in<br>
+                        ← Shallower depth of field
+                    </span>
+                    <span class="float-right">
+                        Less light let in → <br>
+                        Deeper depth of field →
+                    </span>
                 </div>
             </div>
 
@@ -50,8 +56,14 @@
                         <label for="shutter">Shutter speed 1/{{ stops.shutter[input.shutter] }}s</label>
                         <input v-model="input.shutter" type="range"  class="custom-range" id="shutter" name="shutter" min="0" :max="stops.shutter.length - 1">
                     </div>
-                    <span>← Increased motion / handshake blur</span>
-                    <span class="float-right">Freezes fast-moving subjects →</span>
+                    <span>
+                        ← Light falls on sensor for longer<br>
+                        ← Increased motion / handshake blur
+                    </span>
+                    <span class="float-right">
+                        Light falls on sensor for shorter →<br>
+                        Freezes fast-moving subjects →
+                    </span>
                 </div>
             </div>
 
@@ -61,8 +73,14 @@
                         <label for="iso">ISO {{ stops.iso[input.iso] }}</label>
                         <input v-model="input.iso" type="range"  class="custom-range" id="iso" name="iso" min="0" :max="stops.iso.length - 1">
                     </div>
-                    <span>← Less noise / graininess</span>
-                    <span class="float-right">Increased noise / graininess →</span>
+                    <span>
+                        ← Sensor less sensitive to light<br>
+                        ← Less noise / graininess
+                    </span>
+                    <span class="float-right">
+                        Sensor more sensitive to light → <br>
+                        Increased noise / graininess →
+                    </span>
                 </div>
             </div>
 

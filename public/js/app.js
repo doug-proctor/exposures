@@ -1838,6 +1838,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -37085,11 +37103,9 @@ var render = function() {
             })
           ]),
           _vm._v(" "),
-          _c("span", [_vm._v("← Shallower depth of field")]),
+          _vm._m(0),
           _vm._v(" "),
-          _c("span", { staticClass: "float-right" }, [
-            _vm._v("Deeper depth of field →")
-          ])
+          _vm._m(1)
         ])
       ]),
       _vm._v(" "),
@@ -37130,11 +37146,9 @@ var render = function() {
             })
           ]),
           _vm._v(" "),
-          _c("span", [_vm._v("← Increased motion / handshake blur")]),
+          _vm._m(2),
           _vm._v(" "),
-          _c("span", { staticClass: "float-right" }, [
-            _vm._v("Freezes fast-moving subjects →")
-          ])
+          _vm._m(3)
         ])
       ]),
       _vm._v(" "),
@@ -37171,17 +37185,86 @@ var render = function() {
             })
           ]),
           _vm._v(" "),
-          _c("span", [_vm._v("← Less noise / graininess")]),
+          _vm._m(4),
           _vm._v(" "),
-          _c("span", { staticClass: "float-right" }, [
-            _vm._v("Increased noise / graininess →")
-          ])
+          _vm._m(5)
         ])
       ])
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", [
+      _vm._v("\n                    ← More light let in"),
+      _c("br"),
+      _vm._v(
+        "\n                    ← Shallower depth of field\n                "
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "float-right" }, [
+      _vm._v("\n                    Less light let in → "),
+      _c("br"),
+      _vm._v("\n                    Deeper depth of field →\n                ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", [
+      _vm._v("\n                    ← Light falls on sensor for longer"),
+      _c("br"),
+      _vm._v(
+        "\n                    ← Increased motion / handshake blur\n                "
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "float-right" }, [
+      _vm._v("\n                    Light falls on sensor for shorter →"),
+      _c("br"),
+      _vm._v(
+        "\n                    Freezes fast-moving subjects →\n                "
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", [
+      _vm._v("\n                    ← Sensor less sensitive to light"),
+      _c("br"),
+      _vm._v(
+        "\n                    ← Less noise / graininess\n                "
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "float-right" }, [
+      _vm._v("\n                    Sensor more sensitive to light → "),
+      _c("br"),
+      _vm._v(
+        "\n                    Increased noise / graininess →\n                "
+      )
+    ])
+  }
+]
 render._withStripped = true
 
 
