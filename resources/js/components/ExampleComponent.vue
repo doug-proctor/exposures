@@ -3,14 +3,14 @@
     <div class="container">
         <br><br>
 
-        <div class="images">
+        <!-- <div class="images">
             <div class="scene">
                 <div class="overlay" :style=" 'background-color: ' + sceneOverlayColour + '; opacity: ' + sceneOverlayOpacity + ';' "></div>
             </div>
             <div class="photo" :style=" 'filter: blur(' + blurAmount + 'px)' ">
                 <div class="overlay" :style=" 'background-color: ' + photoOverlayColour + '; opacity: ' + photoOverlayOpacity + ';' "></div>
             </div>
-        </div>
+        </div> -->
 
         <h2>
             {{ ev }}

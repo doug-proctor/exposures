@@ -36993,39 +36993,6 @@ var render = function() {
     _c("br"),
     _c("br"),
     _vm._v(" "),
-    _c("div", { staticClass: "images" }, [
-      _c("div", { staticClass: "scene" }, [
-        _c("div", {
-          staticClass: "overlay",
-          style:
-            "background-color: " +
-            _vm.sceneOverlayColour +
-            "; opacity: " +
-            _vm.sceneOverlayOpacity +
-            ";"
-        })
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "photo",
-          style: "filter: blur(" + _vm.blurAmount + "px)"
-        },
-        [
-          _c("div", {
-            staticClass: "overlay",
-            style:
-              "background-color: " +
-              _vm.photoOverlayColour +
-              "; opacity: " +
-              _vm.photoOverlayOpacity +
-              ";"
-          })
-        ]
-      )
-    ]),
-    _vm._v(" "),
     _c("h2", [
       _vm._v("\n        " + _vm._s(_vm.ev) + "\n        "),
       _vm.ev != 0
